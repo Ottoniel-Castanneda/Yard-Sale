@@ -40,7 +40,7 @@
 
         }
         .form{
-            width: 330px;
+            width: 300px;
             display: flex;
             flex-direction: column;
             margin-top: 20px;
@@ -57,6 +57,7 @@
             margin-top: 16px;
         }
         .primary-button{
+            color: var(--white);
             display: flex;
             text-align: center;
             margin-top: 42px;
@@ -84,9 +85,15 @@
             color: var(--hospital-green);
             margin-top: 30px;
         }
-        #boton-sign{
+        a{ 
+            height: 59px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: var(--hospital-green);
+            border: none;
             display: flex;
             text-align: center;
+            align-items: center;
             justify-content: center;
             background-color: var(--white);
             border: 1px solid var(--hospital-green);
@@ -113,12 +120,12 @@
                     
                     <label for="password" class="label">Password</label>
                     <input type="password" name="password" id="password" placeholder="   *********************" class="input password">
-                    
-                    <input type="login" value="Log in" class="primary-button login-button">
+
+                    <a href="#" class="primary-button">Log in</a>
                     <p>
                         forgot my password
                     </p>
-                    <input type="text" class="submit" value="Sing up" id="boton-sign">
+                    <a href="#" class="submit">Sing up</a>
 
                 </form>
           
