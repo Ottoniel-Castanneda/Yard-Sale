@@ -23,6 +23,12 @@
         html{
         font-family: 'Quicksand', sans-serif;
         }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }    
+
         body{
             display: flex;
             flex-direction: column;
@@ -108,7 +114,8 @@
             <input type="email" name="email" id="email" placeholder=" ejemplo@gmail.com">
             <label for="password">Password</label>
             <input type="password" name="password" id="password" placeholder="***********">
-            <input type="submit" value="Create" class="crear">
+            <input type="submit" value="Create" 
+            class="crear">
         </form>
     </main>
 </body>
